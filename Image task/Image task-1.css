@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+}
+
+.music{
+    background-image: url(music\ bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.but{
+    word-spacing: 36px;
+    text-align: center;
+    padding: 42px 4px;
+}
+.image img{
+    position: absolute;
+  width: 50%;
+  height: 500px;
+  border: 8px groove goldenrod;
+  border-radius: 17px;
+  box-shadow: 1px 0px 3px 0px black;
+  outline: red;
+  margin: 41px 0px 0px 301px;
+
+}
+.image h2{
+    position: relative;
+    color: firebrick;
+    text-align: center;
+    float: bottom;
+    margin-top: 545px;
+    font-size: 96px;
+    background: ;
+    outline: 2px solid darkmagenta;
+    width: 66%;
+    margin-left: 201px;
+    background: linear-gradient(#00ffcfb2,#ffff0075,#0080008c,#fff0f4,#8a2be263);
+    box-shadow: 0px 0px 7px 0px black;
+    /*! opacity: 1.3; */
+    /*! background: transparent; */
+}
+.image img{position: absolute;}
+.but{
+
+}
+.but button{
+    padding: 10px 10px;
+    background: conic-gradient(pink,red,violet,yellow,brown);
+    box-shadow: 0px 0px 4px 0px black;
+}

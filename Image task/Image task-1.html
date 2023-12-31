@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Image task-1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="music">
+
+    <div class="image">
+        <img height="600px" width="100%" id="bannerimage" src="Musical instrumnets.jpg" /><br/>
+        <h2 id="txt1">Music Instruments</h2>
+    </div>
+    
+    <div class="but">
+        <button onclick="changeImage('Music composing.webp'),document.getElementById('txt1').innerHTML='Music Composing'">Music Composing</button>
+        <button onclick="changeImage('Tabala.jpg'),document.getElementById('txt1').innerHTML='Tabala'">Tabala</button>
+        <button onclick="changeImage('Pads.png'),document.getElementById('txt1').innerHTML='Pads'">Pads</button>  
+        <button onclick="changeImage('Keyboard.webp'),document.getElementById('txt1').innerHTML='Keyboard'">Keyboard</button>  
+        <button onclick="changeImage('Violin.jpg'),document.getElementById('txt1').innerHTML='Violin'">Violin</button>
+        <button onclick="changeImage('Drums.jpg'),document.getElementById('txt1').innerHTML='Drums'">Drums</button>
+        <button onclick="changeImage('Trible congo.jpg'),document.getElementById('txt1').innerHTML='Trible Congo'">Trible Congo</button>
+</div>
+
+<script>
+    function changeImage(fileName){
+     
+        let img=document.querySelector("#bannerimage");
+        img.setAttribute("src",fileName);
+
+         
+       
+    }
+</script>
+
+</div>
+
+
+</body>
+</html>
